@@ -1,56 +1,180 @@
-# Welcome to your Expo app 👋
+# MeRota Planner
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="assets/icon.png" alt="MeRota Planner Logo" width="140">
+</p>
 
-## Get started
+<h3 align="center">A modern shift planner and earnings tracker for healthcare professionals, support workers, nurses, carers, and shift-based employees.</h3>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 About
 
-2. Start the app
+MeRota Planner is a professional mobile application designed to simplify shift management, working hour tracking, and earnings estimation.
 
-   ```bash
-   npx expo start
-   ```
+Whether you work day shifts, night shifts, bank shifts, weekends, or rotating schedules, MeRota Planner helps you stay organised and accurately estimate your income before payday.
 
-In the output, you'll find options to open the app in a
+Built with **React Native (Expo)**, the app provides a clean, modern, and intuitive experience while storing your data securely on your device.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ✨ Features
 
-## Get a fresh project
+- 📅 Monthly shift calendar
+- 🕒 Day, Night, Holiday and Sick shift support
+- 💷 Estimated earnings calculator
+- ⏱ Automatic working hours calculation
+- 🍽 Break deduction support
+- ⚙ Custom hourly pay settings
+- 📊 Dashboard with shift summary
+- 📆 Monday–Sunday calendar layout
+- 📝 Shift notes
+- 📱 Clean and modern user interface
+- 💾 Offline local storage
+- 🔒 Private and secure data storage
+- 🚀 Fast and lightweight performance
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
+## 📸 Screenshots
+
+Add your App Store screenshots here.
+
+| Dashboard | Calendar | Add Shift | Pay Settings |
+|-----------|----------|-----------|--------------|
+| Screenshot | Screenshot | Screenshot | Screenshot |
+
+---
+
+## 🛠 Built With
+
+- React Native
+- Expo
+- Expo Router
+- JavaScript
+- React Native Calendars
+- SQLite
+- AsyncStorage
+
+---
+
+## 📂 Project Structure
+
+```
+MeRotaPlanner/
+│
+├── app/
+├── assets/
+├── components/
+├── constants/
+├── database/
+├── styles/
+├── utils/
+├── package.json
+├── app.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## Installation
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Clone the repository
 
-## Learn more
+```bash
+git clone https://github.com/Gideon-Mensah/merota-planner.git
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Navigate into the project
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+cd merota-planner
+```
 
-## Join the community
+Install dependencies
 
-Join our community of developers creating universal apps.
+```bash
+npm install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Start the development server
+
+```bash
+npx expo start
+```
+
+Run on iOS
+
+```bash
+npx expo run:ios
+```
+
+Run on Android
+
+```bash
+npx expo run:android
+```
+
+---
+
+## App Store
+
+MeRota Planner is available on the **Apple App Store**.
+
+**Download here:**
+
+https://apps.apple.com/app/id6776914060
+
+---
+
+## Roadmap
+
+Future updates include:
+
+- Cloud backup & sync
+- Face ID / Touch ID protection
+- Shift reminders & notifications
+- Dark Mode
+- PDF shift reports
+- CSV export
+- Apple Watch support
+- Overtime calculations
+- Multiple job profiles
+- iCloud synchronisation
+
+---
+
+## Contributing
+
+Contributions, feature requests, and suggestions are welcome.
+
+If you have ideas to improve MeRota Planner, feel free to open an issue or submit a pull request.
+
+---
+
+## Author
+
+**Gideon Owusu Agyei Mensah**
+
+GitHub:
+https://github.com/Gideon-Mensah
+
+---
+
+## Support
+
+If you enjoy using MeRota Planner, please consider:
+
+- ⭐ Starring this repository
+- 📱 Downloading the app from the App Store
+- 📝 Leaving an App Store review
+
+Your support helps improve the project and future releases.
+
+---
+
+## License
+
+This project is provided for educational and portfolio purposes.
+
+All rights reserved © Gideon Owusu Agyei Mensah.
